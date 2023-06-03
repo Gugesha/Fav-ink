@@ -1,0 +1,2195 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+:root{
+    background-color: black;
+}
+.header-div{
+    width: 100%;
+    margin: 0 auto;
+    background-color: black;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    row-gap: 15px;
+    padding-bottom: 10px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    position: fixed;
+    top: 0;
+    z-index: 5;
+    
+}
+.logo{
+    width: 100px;
+    height: 150px;
+}
+.logo-div h3{
+    font-size: 70px;
+    color: aquamarine;
+    font-family: 'Cookie', cursive;
+}
+.logo-div{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center ;
+        -ms-flex-align: center ;
+            align-items: center ;
+}
+.bar{
+    width: 50px;
+    height: 50px; 
+    color: lightcyan;
+    display: none;
+}
+.fa-solid.fa-bars{
+    font-size: 50px;
+}
+.nav-item{
+    color: aquamarine;
+    font-family: 'Macondo', cursive;
+}
+.ul-item{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-column-gap: 20px;
+       -moz-column-gap: 20px;
+            column-gap: 20px;
+    font-size: 25px;
+}
+.li-item a{
+    color: aquamarine;
+}
+.li-item a:hover{
+    -webkit-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+    color: lightcyan;
+    border-bottom: 3px solid aquamarine;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.wraper{
+    background-image: url('../img/tattoo.jpg');
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 20px;
+    -webkit-box-pack:  center;
+        -ms-flex-pack:  center;
+            justify-content:  center;
+    padding-left: 40px;
+    margin-top: 160px;
+}
+
+.wraper h1{
+    color: lightcyan;
+    font-size: 60px;
+    font-family: 'PT Mono', monospace;
+    font-weight: 600;
+    -webkit-animation: bounce;
+    animation: bounce;
+-webkit-animation-duration: 1s;
+    animation-duration: 1s;
+-webkit-animation-timing-function:1s;
+    animation-timing-function:1s;
+    
+}
+.tokyo{
+    color: darkred;
+    text-shadow: 1px 1px darkolivegreen;
+}
+.wraper p {
+    font-family: 'PT Mono', monospace;
+    color: lightcyan;
+    font-family: 25px;
+    font-weight: 600;
+    font-size: 20px;
+    -webkit-animation-name: sale;
+            animation-name: sale;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+}
+@-webkit-keyframes sale{
+    form {opacity:100%}
+    to {opacity: 0;}
+}
+@keyframes sale{
+    form {opacity:100%}
+    to {opacity: 0;}
+}
+.booking{
+    width: 200px;
+    height: 100px;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+}
+
+.wraper01{
+    color: aliceblue;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-column-gap: 30px;
+       -moz-column-gap: 30px;
+            column-gap: 30px;
+    max-width: 1030px; 
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.text-div{
+    width: 500px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    row-gap: 20px;
+    padding-bottom: 20px;
+}
+.text-div h2{
+    font-family: 'Macondo', cursive;
+    font-size: 40px;
+}
+.p-text{
+    font-family: 'PT Mono', monospace;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 20px;
+    font-size: 20px;
+}
+.line{
+    max-width: 300px;
+    width: 70%;
+
+}
+.image-div{
+    background-image: url(../img/chair.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 500px;
+    height: 600px;
+}
+.grid-container{
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto 40px auto;
+    grid-template-columns: auto auto;
+    padding-bottom: 30px;
+    color: aliceblue;
+    gap: 40px;
+    text-align: center;
+
+}
+.grid-container h3{
+    font-family: 'Macondo', cursive;
+    font-size: 40px;
+}
+.grid-container hr{
+    max-width: 400px;
+    width: 70%;
+    margin: 20px auto;
+}
+.grid3{
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-column: 1/3;
+}
+.grid-container p{
+    font-family: 'PT Mono', monospace;
+    font-size: 20px;
+}
+
+
+.footer-bg{
+    background-color: black;
+    color: aliceblue;
+}
+.footer-logo{
+    width: 300px;
+    height: 400px;
+}
+.top-div-footer{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    row-gap: 20px;
+}
+.top-div-footer h3{
+    font-size: 60px;
+    color: aquamarine;
+    font-family: 'Cookie', cursive;
+}
+.footer-brands{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-column-gap: 20px;
+       -moz-column-gap: 20px;
+            column-gap: 20px;
+    font-size: 30px;
+    color: aquamarine;
+}
+.small-line{
+    width: 2px;
+    height: 20px;
+    background-color: cadetblue;
+}
+.contact{
+    color: cadetblue;
+    font-size: 20px;
+}
+.footer-contact{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-column-gap: 10px;
+       -moz-column-gap: 10px;
+            column-gap: 10px;
+}
+.copyright{
+    max-width: 530px;
+    width: 90%;
+    padding: 10px 0 10px 0;
+    margin-top: 20px;
+    color: darkgrey;
+    border-bottom: 1px solid darkgray;
+    border-top:2px solid darkgray ;
+}
+
+
+/* STUDIO */
+.wraper02{
+    background-image: url(../img/face.jpg);
+    width: 100%;
+    height: 500px;
+    margin-top: 160px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 50px;
+    color: lightcyan;
+    text-shadow: 2px 2px black;
+}
+.wraper02 h3{
+    font-family: 'PT Mono', monospace;
+    font-size: 60px;
+    font-weight: 600;
+    max-width: 600px;
+    width: 80%;
+
+}
+.wraper02 p{
+    font-family: 'PT Mono', monospace;
+    font-size: 20px;
+    font-weight: 600;
+    max-width: 600px;
+    width: 80%;
+}
+.studio-text{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-column-gap: 50px;
+       -moz-column-gap: 50px;
+            column-gap: 50px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    padding: 50px 150px;
+    color: lightgrey;
+}
+.studio-text h2{
+   max-width: 700px;
+   width: 80%;
+   font-size: 60px;
+   text-align: center;
+   font-family: 'Macondo', cursive;
+   font-weight: 600;
+   -webkit-animation-name: stuio-text;
+           animation-name: stuio-text;
+   -webkit-animation-duration: 2s;
+           animation-duration: 2s;
+   -webkit-animation-iteration-count: infinite;
+           animation-iteration-count: infinite;
+}
+
+.text2{
+    max-width: 700px;
+    width: 80%;
+    font-size: 25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 30px;
+    text-align: center;
+}
+.text2 h3{
+    font-family: 'Macondo', cursive;
+    font-size: 40px;
+    font-weight: 600;
+}
+.text2 hr,
+.persp hr{
+    max-width: 500px;
+    width: 80%;
+}
+.text2 p{
+    font-family: 'PT Mono', monospace;
+}
+.studio-container{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+.studio-img:nth-child(1){
+    background-image:url(../img/studio1.jpg) ;
+}
+.studio-img:nth-child(2){
+    background-image: url(../img/studio2.jpg);
+}
+.studio-img:nth-child(3){
+    background-image: url(../img/st3.jpg);
+}
+.studio-img,
+.studio-img1{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    max-width: 400px;
+    width: 90%;
+    height: 400px;
+    margin: 0 auto;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+.studio-img:hover,
+.studio-img1:hover{
+    -webkit-transform: scale(1.2, 1.2);
+        -ms-transform: scale(1.2, 1.2);
+            transform: scale(1.2, 1.2);
+}
+.cont01{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 1400px;
+    width: 90%;
+    margin: 0 auto;
+    -webkit-column-gap: 20px;
+       -moz-column-gap: 20px;
+            column-gap: 20px;
+}
+.studio-img1:nth-child(1){
+    background-image: url(../img/st4.jpg);
+}
+.studio-img1:nth-child(2){
+    background-image: url(../img/st6.jpg);
+}
+.studio-img1:nth-child(3){
+    background-image: url(../img/st5.jpg);
+}
+.studio03{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 50px;
+    padding: 50px 0;
+    color: lightcyan;
+}
+.waiting{
+    width: 300px;
+    font-size: 60px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Macondo', cursive;
+    font-weight: 600;
+    -webkit-animation-name: stuio-text;
+            animation-name: stuio-text;
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+}
+@-webkit-keyframes stuio-text{
+   0%{ color: lightcyan;}
+   25%{color: darkred;}
+   50%{color: black}
+   100%{color: lightcyan;}
+}
+@keyframes stuio-text{
+   0%{ color: lightcyan;}
+   25%{color: darkred;}
+   50%{color: black}
+   100%{color: lightcyan;}
+}
+.persp{
+    max-width: 1200px;
+    width: 90%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    row-gap: 30px;
+    margin: 0 auto;
+}
+.persp h3{
+    font-family: 'Macondo', cursive;
+    font-size: 40px;
+}
+.persp p{
+    font-family: 'PT Mono', monospace;
+    font-size: 20px;
+}
+
+
+/* SERVICES */
+.tattoos{
+    margin-top: 160px;
+    width: 100%;
+}
+.div01{
+    width:100%;
+    min-height: 500px;
+    margin: 0 auto;
+    background-image: url(../img/hands.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; 
+}
+.div01 h3{
+    max-width: 900px;
+    width:90%;
+    font-size: 60px;
+    font-family: 'PT Mono', monospace;
+    color: black;
+    font-weight: 600;
+    text-shadow: 2px 2px darkblue ;
+    -webkit-animation: bounce;
+            animation: bounce;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-timing-function:1s;
+            animation-timing-function:1s;
+}
+@-webkit-keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);transform: translateY(0);}
+    40% {-webkit-transform: translateY(-30px);transform: translateY(-30px);}
+    60% {-webkit-transform: translateY(-15px);transform: translateY(-15px);}
+}
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);transform: translateY(0);}
+    40% {-webkit-transform: translateY(-30px);transform: translateY(-30px);}
+    60% {-webkit-transform: translateY(-15px);transform: translateY(-15px);}
+}
+.forservices{
+    font-size: 60px;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'PT Mono', monospace;
+    font-weight: 600;
+
+}
+.service-wraper{
+    color: aliceblue;
+}
+.service-wraper h3{
+    padding: 30px 0;
+}
+.tattoo-div,
+.piercing-div,
+.story-div{
+    font-size: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: 0 auto;
+    max-width: 800px;
+    width: 80%;
+}
+
+.tattoo-info,
+.piercing-info,
+.story-info{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 30px;
+    padding: 30px 0;
+    max-width: 1200px;
+    width: 80%;
+    margin: 0 auto;
+}
+.tattoos hr{
+    max-width: 800px;
+    width: 80%;
+    margin: 0 auto;
+}
+.tattoo-div h4,
+.piercing-div h4,
+.story-div h4{
+    font-size: 50px;
+    font-family: 'PT Mono', monospace;
+    font-weight: 600;
+}
+.tattoo-info h4,
+.piercing-info h4,
+.story-info h4{
+    font-size: 30px;
+    font-family: 'PT Mono', monospace;
+    font-weight: 600;
+}
+.tattoo-info p,
+.piercing-info p,
+.story-info p{
+    font-family: 'PT Mono', monospace;
+    font-size: 20px;
+}
+
+.tattoo-wraper{
+    max-width: 1400px;
+    width: 90%;
+    margin: 0 auto;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns:1fr 50px 1fr 50px 1fr;
+    grid-template-columns:repeat(3, 1fr);
+    -ms-grid-rows:300px 50px 300px 50px 300px 50px 300px 50px 300px;
+    grid-template-rows:repeat(5, 300px);
+    gap: 50px;
+    padding: 50px 0;
+}
+
+.tattoo-wraper > *:nth-child(1){
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+}
+
+.tattoo-wraper > *:nth-child(2){
+    -ms-grid-row: 1;
+    -ms-grid-column: 3;
+}
+
+.tattoo-wraper > *:nth-child(3){
+    -ms-grid-row: 1;
+    -ms-grid-column: 5;
+}
+
+.tattoo-wraper > *:nth-child(4){
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+}
+
+.tattoo-wraper > *:nth-child(5){
+    -ms-grid-row: 3;
+    -ms-grid-column: 3;
+}
+
+.tattoo-wraper > *:nth-child(6){
+    -ms-grid-row: 3;
+    -ms-grid-column: 5;
+}
+
+.tattoo-wraper > *:nth-child(7){
+    -ms-grid-row: 5;
+    -ms-grid-column: 1;
+}
+
+.tattoo-wraper > *:nth-child(8){
+    -ms-grid-row: 5;
+    -ms-grid-column: 3;
+}
+
+.tattoo-wraper > *:nth-child(9){
+    -ms-grid-row: 5;
+    -ms-grid-column: 5;
+}
+
+.tattoo-wraper > *:nth-child(10){
+    -ms-grid-row: 7;
+    -ms-grid-column: 1;
+}
+
+.tattoo-wraper > *:nth-child(11){
+    -ms-grid-row: 7;
+    -ms-grid-column: 3;
+}
+
+.tattoo-wraper > *:nth-child(12){
+    -ms-grid-row: 7;
+    -ms-grid-column: 5;
+}
+
+.tattoo-wraper > *:nth-child(13){
+    -ms-grid-row: 9;
+    -ms-grid-column: 1;
+}
+
+.tattoo-wraper > *:nth-child(14){
+    -ms-grid-row: 9;
+    -ms-grid-column: 3;
+}
+
+.tattoo-wraper > *:nth-child(15){
+    -ms-grid-row: 9;
+    -ms-grid-column: 5;
+}
+.phot,
+.prc{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+.phot:hover,
+.prc:hover{
+    -webkit-transform: scale(1.2, 1.2);
+        -ms-transform: scale(1.2, 1.2);
+            transform: scale(1.2, 1.2);
+}
+.phot:nth-child(1){
+    background-image: url('../img/handred.jpg');
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    grid-row: 1/3;
+    height: auto;
+}
+.phot:nth-child(2){
+    background-image: url('../img/dragon1.jpg');
+}
+.phot:nth-child(3){
+    background-image: url('../img/body.jpg');
+}
+.phot:nth-child(4){
+    background-image: url('../img/pk.jpg');
+}
+.phot:nth-child(5){
+    background-image: url('../img/oop.jpg');
+}
+.phot:nth-child(6){
+    background-image: url('../img/bird.jpg');
+}
+.phot:nth-child(7){
+    background-image: url('../img/dragon.jpeg');
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 2;
+    grid-column: 2/4;
+}
+.phot:nth-child(8){
+    background-image: url('../img/oip.jpg');
+    -ms-grid-row: 4;
+    -ms-grid-row-span: 2;
+    grid-row: 4/6;
+}
+.phot:nth-child(9){
+    background-image: url('../img/jellyfish.jpg');
+    -ms-grid-row: 4;
+    -ms-grid-row-span: 2;
+    grid-row: 4/6;
+}
+.phot:nth-child(10){
+    background-image: url('../img/leg.jpg');
+    -ms-grid-row: 4;
+    -ms-grid-row-span: 2;
+    grid-row: 4/6;
+}
+.piercing-wraper{
+    max-width: 1400px;
+    width: 90%;
+    margin: 0 auto;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns:1fr 50px 1fr 50px 1fr;
+    grid-template-columns:repeat(3, 1fr);
+    -ms-grid-rows:300px 50px 300px;
+    grid-template-rows:repeat(2, 300px);
+    gap: 50px;
+    padding: 50px 0;
+}
+.piercing-wraper > *:nth-child(1){
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+}
+.piercing-wraper > *:nth-child(2){
+    -ms-grid-row: 1;
+    -ms-grid-column: 3;
+}
+.piercing-wraper > *:nth-child(3){
+    -ms-grid-row: 1;
+    -ms-grid-column: 5;
+}
+.piercing-wraper > *:nth-child(4){
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+}
+.piercing-wraper > *:nth-child(5){
+    -ms-grid-row: 3;
+    -ms-grid-column: 3;
+}
+.piercing-wraper > *:nth-child(6){
+    -ms-grid-row: 3;
+    -ms-grid-column: 5;
+}
+.prc:nth-child(1){
+    background-image: url('../img/prc.jpg');
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-column: 1/3;
+}
+.prc:nth-child(2){
+    background-image: url('../img/prceye.jpg');
+}
+.prc:nth-child(3){
+    background-image: url('../img/prct.jpg');
+}
+.prc:nth-child(4){
+    background-image: url('../img/prcear.jpg');
+}
+.prc:nth-child(5){
+    background-image: url('../img/prc3.jpg');
+}
+    
+
+
+/* CONTACT */
+.cont-decor{
+    background-image: url(../img/brain.jpg);
+    width: 100%;
+    height: 400px;
+    margin-top: 160px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+.cont-decor h2{
+    font-family: 'PT Mono', monospace;
+    font-size: 60px;
+    font-weight: 600;
+    text-align: center;
+    color: lightcyan;
+    text-shadow: 1px 1px black;
+
+}
+.contact-wraper{
+    width: 100%;
+    background-color: black;
+    padding: 20px 0;
+}
+.contact-wraper hr{
+    max-width: 800px;
+    width: 80%;
+    margin: 0 auto;
+}
+.working-days{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-column-gap: 20px;
+       -moz-column-gap: 20px;
+            column-gap: 20px;
+    padding: 20px 0;
+    font-family: 'Macondo', cursive;
+    color: aquamarine;
+}
+.days,
+.hours{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 20px;
+    font-size: 20px;
+
+}
+.form-div{
+    padding: 30px 0;
+    color: aquamarine;
+
+}
+.form{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    row-gap: 30px;
+    font-family: 'Macondo', cursive;
+    font-size: 20px;
+}
+.input-des{
+    border: none;
+    background-color: black;
+    color: aquamarine;
+    border-bottom: 2px solid  aquamarine;
+}
+.input-des:focus{
+    outline: none;
+}
+
+.forms{
+    max-width: 500px;
+    width: 90%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 15px;
+}
+.body{
+    background-color: black;
+    color: aquamarine;
+    width: 200px;
+    height: 50px;
+    border: 2px solid aquamarine;
+    border-radius: 30px;
+    font-size: 15px;
+    padding: 0 10px;
+    font-family: 'Macondo', cursive;
+
+
+    
+}
+.body:focus{
+    outline: none;
+}
+.button{
+    width: 200px;
+    height: 50px;
+    background-color: black;
+    color: aquamarine;
+    border: 2px solid aquamarine;
+    border-radius: 30px;
+    font-family: 'Macondo', cursive;
+}
+.map-div{
+    max-width: 1000px;
+    width: 90%;
+    margin: 20px auto;
+}
+.map{
+    width: 100%;
+}
+.loc-text{
+    color: aliceblue;
+    font-family: 'Macondo', cursive;
+    font-size: 20px;
+    margin: 20px 0;
+}
+.loc-text h3{
+    font-weight: 600;
+}
+
+
+
+/* FAQ */
+.faq-wraper{
+    background-image: url('../img/tattoo.jpg');
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 20px;
+    -webkit-box-pack:  center;
+        -ms-flex-pack:  center;
+            justify-content:  center;
+    padding-left: 40px;
+    margin-top: 160px;
+    color: lightcyan;
+}
+.bg-f{
+    background-color: black;
+    padding-bottom: 30px;
+}
+.faq-wraper h3{
+    font-size: 60px;
+    font-family: 'PT Mono', monospace;
+    font-weight: 600;
+}
+.faq-wraper p{
+    font-family: 'PT Mono', monospace;
+    font-family: 30px;
+    font-weight: 600;
+}
+.faq-text{
+    margin: 40px auto;
+    max-width: 1200px;
+    width: 90%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 40px;
+}
+.faq-text hr{
+    color: lightblue;
+    max-width: 1000px;
+    width: 80%;
+}
+.faq-box{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 20px;
+    color: darkolivegreen;
+}
+.faq-box:hover{
+    color: lightcyan;
+}
+.faq-box h3{
+    font-family: 'Macondo', cursive;
+    font-size: 40px;
+}
+.faq-box p{
+    font-family: 'PT Mono', monospace;
+    row-gap: 20px; 
+}/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+:root{
+    background-color: black;
+}
+.header-div{
+    /* max-width: 1200px; */
+    width: 100%;
+    margin: 0 auto;
+    background-color: black;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    row-gap: 15px;
+    padding-bottom: 10px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    position: fixed;
+    top: 0;
+    z-index: 5;
+    
+}
+.header-bg{
+    background-color: black;
+}
+.logo{
+    width: 100px;
+    height: 150px;
+}
+.logo-div h3{
+    font-size: 70px;
+    color: aquamarine;
+    font-family: 'Cookie', cursive;
+}
+.logo-div{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center ;
+        -ms-flex-align: center ;
+            align-items: center ;
+}
+.bar{
+    width: 50px;
+    height: 50px; 
+    color: lightcyan;
+    display: none;
+}
+.fa-solid.fa-bars{
+    font-size: 50px;
+}
+.nav-item{
+    color: aquamarine;
+    font-family: 'Macondo', cursive;
+}
+.ul-item{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-column-gap: 20px;
+       -moz-column-gap: 20px;
+            column-gap: 20px;
+    font-size: 25px;
+}
+.li-item a{
+    color: aquamarine;
+}
+.li-item a:hover{
+    -webkit-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+    color: lightcyan;
+    border-bottom: 3px solid aquamarine;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.wraper{
+    background-image: url('../img/tattoo.jpg');
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 20px;
+    -webkit-box-pack:  center;
+        -ms-flex-pack:  center;
+            justify-content:  center;
+    padding-left: 40px;
+    margin-top: 160px;
+}
+
+.wraper h1{
+    color: lightcyan;
+    font-size: 60px;
+    font-family: 'PT Mono', monospace;
+    font-weight: 600;
+}
+.tokyo{
+    color: darkred;
+    text-shadow: 1px 1px darkolivegreen;
+}
+.wraper p {
+    font-family: 'PT Mono', monospace;
+    color: lightcyan;
+    font-family: 25px;
+    font-weight: 600;
+    font-size: 20px;
+    -webkit-animation-name: sale;
+            animation-name: sale;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+}
+@-webkit-keyframes sale{
+    form {opacity:100%}
+    to {opacity: 0;}
+}
+@keyframes sale{
+    form {opacity:100%}
+    to {opacity: 0;}
+}
+.booking{
+    width: 200px;
+    height: 100px;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+}
+
+.wraper01{
+    color: aliceblue;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-column-gap: 30px;
+       -moz-column-gap: 30px;
+            column-gap: 30px;
+    max-width: 1030px; 
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.text-div{
+    width: 500px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    row-gap: 20px;
+    padding-bottom: 20px;
+}
+.text-div h2{
+    font-family: 'Macondo', cursive;
+    font-size: 40px;
+}
+.p-text{
+    font-family: 'PT Mono', monospace;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 20px;
+    font-size: 20px;
+}
+.line{
+    max-width: 300px;
+    width: 70%;
+
+}
+.image-div{
+    background-image: url(../img/chair.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 500px;
+    height: 600px;
+}
+.grid-container{
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto 40px auto;
+    grid-template-columns: auto auto;
+    padding-bottom: 30px;
+    color: aliceblue;
+    gap: 40px;
+    text-align: center;
+
+}
+.grid-container h3{
+    font-family: 'Macondo', cursive;
+    font-size: 40px;
+}
+.grid-container hr{
+    max-width: 400px;
+    width: 70%;
+    margin: 20px auto;
+}
+.grid3{
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-column: 1/3;
+}
+.grid-container p{
+    font-family: 'PT Mono', monospace;
+    font-size: 20px;
+}
+
+
+.footer-bg{
+    background-color: black;
+    color: aliceblue;
+}
+.footer-logo{
+    width: 300px;
+    height: 400px;
+}
+.top-div-footer{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    row-gap: 20px;
+}
+.top-div-footer h3{
+    font-size: 60px;
+    color: aquamarine;
+    font-family: 'Cookie', cursive;
+}
+.footer-brands{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-column-gap: 20px;
+       -moz-column-gap: 20px;
+            column-gap: 20px;
+    font-size: 30px;
+    color: aquamarine;
+}
+.small-line{
+    width: 2px;
+    height: 20px;
+    background-color: cadetblue;
+}
+.contact{
+    color: cadetblue;
+    font-size: 20px;
+}
+.footer-contact{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-column-gap: 10px;
+       -moz-column-gap: 10px;
+            column-gap: 10px;
+}
+.copyright{
+    max-width: 530px;
+    width: 90%;
+    padding: 10px 0 10px 0;
+    margin-top: 20px;
+    color: darkgrey;
+    border-bottom: 1px solid darkgray;
+    border-top:2px solid darkgray ;
+}
+
+
+/* STUDIO */
+.wraper02{
+    background-image: url(../img/face.jpg);
+    width: 100%;
+    height: 500px;
+    margin-top: 160px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 50px;
+    color: lightcyan;
+    text-shadow: 2px 2px black;
+}
+.wraper02 h3{
+    font-size: 60px;
+
+}
+.wraper02 p{
+    font-size: 20px;
+}
+.wraper02 h3,
+.wraper02 p{
+    font-weight: 600;
+    max-width: 600px;
+    width: 80%;
+    font-family: 'PT Mono', monospace;
+    -webkit-animation: bounce;
+    animation: bounce;
+-webkit-animation-duration: 1s;
+    animation-duration: 1s;
+-webkit-animation-timing-function:1s;
+    animation-timing-function:1s;
+}
+.studio-text{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-column-gap: 50px;
+       -moz-column-gap: 50px;
+            column-gap: 50px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    padding: 50px 150px;
+    color: lightgrey;
+}
+.studio-text h2{
+   max-width: 700px;
+   width: 80%;
+   font-size: 60px;
+   text-align: center;
+   font-family: 'Macondo', cursive;
+   font-weight: 600;
+   -webkit-animation-name: stuio-text;
+           animation-name: stuio-text;
+   -webkit-animation-duration: 2s;
+           animation-duration: 2s;
+   -webkit-animation-iteration-count: infinite;
+           animation-iteration-count: infinite;
+}
+
+.text2{
+    max-width: 700px;
+    width: 80%;
+    font-size: 25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 30px;
+    text-align: center;
+}
+.text2 h3{
+    font-family: 'Macondo', cursive;
+    font-size: 40px;
+    font-weight: 600;
+}
+.text2 hr,
+.persp hr{
+    max-width: 500px;
+    width: 80%;
+}
+.text2 p{
+    font-family: 'PT Mono', monospace;
+}
+.studio-container{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+.studio-img:nth-child(1){
+    background-image:url(../img/studio1.jpg) ;
+}
+.studio-img:nth-child(2){
+    background-image: url(../img/studio2.jpg);
+}
+.studio-img:nth-child(3){
+    background-image: url(../img/st3.jpg);
+}
+.studio-img,
+.studio-img1{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    max-width: 400px;
+    width: 90%;
+    height: 400px;
+    margin: 0 auto;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+.studio-img:hover,
+.studio-img1:hover{
+    -webkit-transform: scale(1.2, 1.2);
+        -ms-transform: scale(1.2, 1.2);
+            transform: scale(1.2, 1.2);
+}
+.cont01{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 1400px;
+    width: 90%;
+    margin: 0 auto;
+    -webkit-column-gap: 20px;
+       -moz-column-gap: 20px;
+            column-gap: 20px;
+}
+.studio-img1:nth-child(1){
+    background-image: url(../img/st4.jpg);
+}
+.studio-img1:nth-child(2){
+    background-image: url(../img/st6.jpg);
+}
+.studio-img1:nth-child(3){
+    background-image: url(../img/st5.jpg);
+}
+.studio03{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 50px;
+    padding: 50px 0;
+    color: lightcyan;
+}
+.waiting{
+    width: 300px;
+    font-size: 60px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Macondo', cursive;
+    font-weight: 600;
+    -webkit-animation-name: stuio-text;
+            animation-name: stuio-text;
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+}
+@-webkit-keyframes stuio-text{
+   0%{ color: lightcyan;}
+   25%{color: darkred;}
+   50%{color: black}
+   100%{color: lightcyan;}
+}
+@keyframes stuio-text{
+   0%{ color: lightcyan;}
+   25%{color: darkred;}
+   50%{color: black}
+   100%{color: lightcyan;}
+}
+.persp{
+    max-width: 1200px;
+    width: 90%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    row-gap: 30px;
+    margin: 0 auto;
+}
+.persp h3{
+    font-family: 'Macondo', cursive;
+    font-size: 40px;
+}
+.persp p{
+    font-family: 'PT Mono', monospace;
+    font-size: 20px;
+}
+
+
+/* SERVICES */
+.tattoos{
+    margin-top: 160px;
+    width: 100%;
+}
+.div01{
+    width:100%;
+    min-height: 500px;
+    margin: 0 auto;
+    background-image: url(../img/hands.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; 
+}
+.div01 h3{
+    max-width: 900px;
+    width:90%;
+    font-size: 60px;
+    font-family: 'PT Mono', monospace;
+    color: black;
+    font-weight: 600;
+    text-shadow: 2px 2px darkblue ;
+    -webkit-animation: bounce;
+            animation: bounce;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-timing-function:1s;
+            animation-timing-function:1s;
+}
+@-webkit-keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);transform: translateY(0);}
+    40% {-webkit-transform: translateY(-30px);transform: translateY(-30px);}
+    60% {-webkit-transform: translateY(-15px);transform: translateY(-15px);}
+}
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);transform: translateY(0);}
+    40% {-webkit-transform: translateY(-30px);transform: translateY(-30px);}
+    60% {-webkit-transform: translateY(-15px);transform: translateY(-15px);}
+}
+.forservices{
+    font-size: 60px;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'PT Mono', monospace;
+    font-weight: 600;
+
+}
+.service-wraper{
+    color: aliceblue;
+}
+.service-wraper h3{
+    padding: 30px 0;
+}
+.tattoo-div,
+.piercing-div,
+.story-div{
+    font-size: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: 0 auto;
+    max-width: 800px;
+    width: 80%;
+}
+
+.tattoo-info,
+.piercing-info,
+.story-info{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 30px;
+    padding: 30px 0;
+    max-width: 1200px;
+    width: 80%;
+    margin: 0 auto;
+}
+.tattoos hr{
+    max-width: 800px;
+    width: 80%;
+    margin: 0 auto;
+}
+.tattoo-div h4,
+.piercing-div h4,
+.story-div h4{
+    font-size: 50px;
+    font-family: 'PT Mono', monospace;
+    font-weight: 600;
+}
+.tattoo-info h4,
+.piercing-info h4,
+.story-info h4{
+    font-size: 30px;
+    font-family: 'PT Mono', monospace;
+    font-weight: 600;
+}
+.tattoo-info p,
+.piercing-info p,
+.story-info p{
+    font-family: 'PT Mono', monospace;
+    font-size: 20px;
+}
+
+.tattoo-wraper{
+    max-width: 1400px;
+    width: 90%;
+    margin: 0 auto;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns:1fr 50px 1fr 50px 1fr;
+    grid-template-columns:repeat(3, 1fr);
+    -ms-grid-rows:300px 50px 300px 50px 300px 50px 300px 50px 300px;
+    grid-template-rows:repeat(5, 300px);
+    gap: 50px;
+    padding: 50px 0;
+}
+
+.tattoo-wraper > *:nth-child(1){
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+}
+
+.tattoo-wraper > *:nth-child(2){
+    -ms-grid-row: 1;
+    -ms-grid-column: 3;
+}
+
+.tattoo-wraper > *:nth-child(3){
+    -ms-grid-row: 1;
+    -ms-grid-column: 5;
+}
+
+.tattoo-wraper > *:nth-child(4){
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+}
+
+.tattoo-wraper > *:nth-child(5){
+    -ms-grid-row: 3;
+    -ms-grid-column: 3;
+}
+
+.tattoo-wraper > *:nth-child(6){
+    -ms-grid-row: 3;
+    -ms-grid-column: 5;
+}
+
+.tattoo-wraper > *:nth-child(7){
+    -ms-grid-row: 5;
+    -ms-grid-column: 1;
+}
+
+.tattoo-wraper > *:nth-child(8){
+    -ms-grid-row: 5;
+    -ms-grid-column: 3;
+}
+
+.tattoo-wraper > *:nth-child(9){
+    -ms-grid-row: 5;
+    -ms-grid-column: 5;
+}
+
+.tattoo-wraper > *:nth-child(10){
+    -ms-grid-row: 7;
+    -ms-grid-column: 1;
+}
+
+.tattoo-wraper > *:nth-child(11){
+    -ms-grid-row: 7;
+    -ms-grid-column: 3;
+}
+
+.tattoo-wraper > *:nth-child(12){
+    -ms-grid-row: 7;
+    -ms-grid-column: 5;
+}
+
+.tattoo-wraper > *:nth-child(13){
+    -ms-grid-row: 9;
+    -ms-grid-column: 1;
+}
+
+.tattoo-wraper > *:nth-child(14){
+    -ms-grid-row: 9;
+    -ms-grid-column: 3;
+}
+
+.tattoo-wraper > *:nth-child(15){
+    -ms-grid-row: 9;
+    -ms-grid-column: 5;
+}
+.phot,
+.prc{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+.phot:hover,
+.prc:hover{
+    -webkit-transform: scale(1.2, 1.2);
+        -ms-transform: scale(1.2, 1.2);
+            transform: scale(1.2, 1.2);
+}
+.phot:nth-child(1){
+    background-image: url('../img/handred.jpg');
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    grid-row: 1/3;
+    height: auto;
+}
+.phot:nth-child(2){
+    background-image: url('../img/dragon1.jpg');
+}
+.phot:nth-child(3){
+    background-image: url('../img/body.jpg');
+}
+.phot:nth-child(4){
+    background-image: url('../img/pk.jpg');
+}
+.phot:nth-child(5){
+    background-image: url('../img/oop.jpg');
+}
+.phot:nth-child(6){
+    background-image: url('../img/bird.jpg');
+}
+.phot:nth-child(7){
+    background-image: url('../img/dragon.jpeg');
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 2;
+    grid-column: 2/4;
+}
+.phot:nth-child(8){
+    background-image: url('../img/oip.jpg');
+    -ms-grid-row: 4;
+    -ms-grid-row-span: 2;
+    grid-row: 4/6;
+}
+.phot:nth-child(9){
+    background-image: url('../img/jellyfish.jpg');
+    -ms-grid-row: 4;
+    -ms-grid-row-span: 2;
+    grid-row: 4/6;
+}
+.phot:nth-child(10){
+    background-image: url('../img/leg.jpg');
+    -ms-grid-row: 4;
+    -ms-grid-row-span: 2;
+    grid-row: 4/6;
+}
+.piercing-wraper{
+    max-width: 1400px;
+    width: 90%;
+    margin: 0 auto;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns:1fr 50px 1fr 50px 1fr;
+    grid-template-columns:repeat(3, 1fr);
+    -ms-grid-rows:300px 50px 300px;
+    grid-template-rows:repeat(2, 300px);
+    gap: 50px;
+    padding: 50px 0;
+}
+.piercing-wraper > *:nth-child(1){
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+}
+.piercing-wraper > *:nth-child(2){
+    -ms-grid-row: 1;
+    -ms-grid-column: 3;
+}
+.piercing-wraper > *:nth-child(3){
+    -ms-grid-row: 1;
+    -ms-grid-column: 5;
+}
+.piercing-wraper > *:nth-child(4){
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+}
+.piercing-wraper > *:nth-child(5){
+    -ms-grid-row: 3;
+    -ms-grid-column: 3;
+}
+.piercing-wraper > *:nth-child(6){
+    -ms-grid-row: 3;
+    -ms-grid-column: 5;
+}
+.prc:nth-child(1){
+    background-image: url('../img/prc.jpg');
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-column: 1/3;
+}
+.prc:nth-child(2){
+    background-image: url('../img/prceye.jpg');
+}
+.prc:nth-child(3){
+    background-image: url('../img/prct.jpg');
+}
+.prc:nth-child(4){
+    background-image: url('../img/prcear.jpg');
+}
+.prc:nth-child(5){
+    background-image: url('../img/prc3.jpg');
+}
+    
+
+
+/* CONTACT */
+.cont-decor{
+    background-image: url(../img/brain.jpg);
+    width: 100%;
+    height: 400px;
+    margin-top: 160px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+.cont-decor h2{
+    font-family: 'PT Mono', monospace;
+    font-size: 60px;
+    font-weight: 600;
+    text-align: center;
+    color: lightcyan;
+    text-shadow: 1px 1px black;
+    -webkit-animation: bounce;
+    animation: bounce;
+-webkit-animation-duration: 1s;
+    animation-duration: 1s;
+-webkit-animation-timing-function:1s;
+    animation-timing-function:1s;
+
+}
+.contact-wraper{
+    width: 100%;
+    background-color: black;
+    padding: 20px 0;
+}
+.contact-wraper hr{
+    max-width: 800px;
+    width: 80%;
+    margin: 0 auto;
+}
+.working-days{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-column-gap: 20px;
+       -moz-column-gap: 20px;
+            column-gap: 20px;
+    padding: 20px 0;
+    font-family: 'Macondo', cursive;
+    color: aquamarine;
+}
+.days,
+.hours{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 20px;
+    font-size: 20px;
+
+}
+.form-div{
+    padding: 30px 0;
+    color: aquamarine;
+
+}
+.form{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    row-gap: 30px;
+    font-family: 'Macondo', cursive;
+    font-size: 20px;
+}
+.input-des{
+    border: none;
+    background-color: black;
+    color: aquamarine;
+    border-bottom: 2px solid  aquamarine;
+}
+.input-des:focus{
+    outline: none;
+}
+
+.forms{
+    max-width: 500px;
+    width: 90%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 15px;
+}
+.body{
+    background-color: black;
+    color: aquamarine;
+    width: 200px;
+    height: 50px;
+    border: 2px solid aquamarine;
+    border-radius: 30px;
+    font-size: 15px;
+    padding: 0 10px;
+    font-family: 'Macondo', cursive;
+
+
+    
+}
+.body:focus{
+    outline: none;
+}
+.button{
+    width: 200px;
+    height: 50px;
+    background-color: black;
+    color: aquamarine;
+    border: 2px solid aquamarine;
+    border-radius: 30px;
+    font-family: 'Macondo', cursive;
+}
+.map-div{
+    max-width: 1000px;
+    width: 90%;
+    margin: 20px auto;
+}
+.map{
+    width: 100%;
+}
+.loc-text{
+    color: aliceblue;
+    font-family: 'Macondo', cursive;
+    font-size: 20px;
+    margin: 20px 0;
+}
+.loc-text h3{
+    font-weight: 600;
+}
+
+
+
+/* FAQ */
+.faq-wraper{
+    background-image: url('../img/tattoo.jpg');
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 20px;
+    -webkit-box-pack:  center;
+        -ms-flex-pack:  center;
+            justify-content:  center;
+    padding-left: 40px;
+    margin-top: 160px;
+    color: lightcyan;
+}
+.bg-f{
+    padding-bottom: 30px;
+}
+.faq-wraper h3{
+    font-size: 60px;
+
+}
+.faq-wraper p{
+    font-family: 30px;
+
+}
+.faq-wraper h3,
+.faq-wraper p{
+    font-family: 'PT Mono', monospace;
+    font-weight: 600;
+    -webkit-animation: bounce;
+    animation: bounce;
+-webkit-animation-duration: 1s;
+    animation-duration: 1s;
+-webkit-animation-timing-function:1s;
+    animation-timing-function:1s;
+}
+.faq-text{
+    background-image: url(../img/drakk.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 40px auto;
+    max-width: 1200px;
+    width: 90%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 40px;
+}
+.faq-text hr{
+    color: lightblue;
+    max-width: 1000px;
+    width: 80%;
+}
+.faq-box{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 20px;
+    color: aquamarine;
+}
+.faq-box:hover{
+    color: lightcyan;
+}
+.faq-box h3{
+    font-family: 'Macondo', cursive;
+    font-size: 40px;
+}
+.faq-box p{
+    font-family: 'PT Mono', monospace;
+    row-gap: 20px; 
+}
