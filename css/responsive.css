@@ -1,7 +1,19 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 @media(max-width:1160px){
     .p-text{
-        flex-direction: row ;
-        column-gap: 30px;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row ;
+                flex-direction: row ;
+        -webkit-column-gap: 30px;
+           -moz-column-gap: 30px;
+                column-gap: 30px;
     }
     .text-div{
         width: 100%;
@@ -25,21 +37,38 @@
 }
 @media(max-width:744px){
     .header-div{
-        justify-content: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
     }
     .p-text{
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
     .grid-container{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
         row-gap: 30px;
     }
     .tattoo-wraper,
     .piercing-wraper{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
-        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
     .phot,
     .prc{
@@ -48,12 +77,20 @@
         height: 400px;
     }
     .studio-text{
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
         row-gap: 30px;
     }
     .cont01{
-        flex-direction: column;
-       justify-content: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+       -webkit-box-pack: center;
+           -ms-flex-pack: center;
+               justify-content: center;
     }
 }
 @media(max-width:690px){
@@ -66,9 +103,16 @@
 }
 @media(max-width:550px){
     .header-div{
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: flex-start;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start;
         padding-bottom: 0;
     }
     .bar{
@@ -83,11 +127,19 @@
     }
     .nav-item.active{
         display: block;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
     .ul-item{
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
         row-gap: 15px;
         padding-bottom: 15px;
     }
@@ -123,11 +175,16 @@
 }
 @media(max-width:400px){
     .header-div{
-        justify-content: space-between;
-       flex-wrap: nowrap;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+       -ms-flex-wrap: nowrap;
+           flex-wrap: nowrap;
     }
     .logo-div{
-        column-gap: 5px;
+        -webkit-column-gap: 5px;
+           -moz-column-gap: 5px;
+                column-gap: 5px;
     }
     .div01 h3{
         font-size: 45px;
